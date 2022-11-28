@@ -1,6 +1,7 @@
 package racing.domain
 
 class Car(
+    val name: Name,
     private val moveStrategy: MoveStrategy,
 ) {
     var position = 0
